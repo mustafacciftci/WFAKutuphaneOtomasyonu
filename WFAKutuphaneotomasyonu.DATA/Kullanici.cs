@@ -17,6 +17,7 @@ namespace WFAKutuphaneotomasyonu.DATA
         public Guid Id { get; set; }
         public string AdSoyad { get; set; }
         public string KullaniciAdi { get; set; }
+        public string Parola { get; set; }
         public List<Kitap> OduncAlinacakKitaplar { get; set; }
 
         

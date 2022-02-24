@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="KayitOlForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KayitOlForm.Designer.cs">
+      <DependentUpon>KayitOlForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="KayitOlForm.resx">
+      <DependentUpon>KayitOlForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -79,6 +88,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WFAKutuphaneotomasyonu.DATA\WFAKutuphaneotomasyonu.DATA.csproj">
+      <Project>{658CE814-35D9-4D28-B18D-00CD7EDB1982}</Project>
+      <Name>WFAKutuphaneotomasyonu.DATA</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
