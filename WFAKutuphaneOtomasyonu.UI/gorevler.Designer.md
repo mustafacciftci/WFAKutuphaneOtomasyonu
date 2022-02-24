@@ -1,0 +1,31 @@
+﻿### Yapılacaklar Listesi 
+ - [ ] Data katmanına İlgli classların oluşturulması 
+    - Kitap 
+      - Id Guid (constructora otomatik değer atansın)
+      - Ad String 
+      - BasımTarihi DateTime 
+      - KitapTurEnum 
+      - YazarAd strign
+      - SayfaSayisi int
+      - Aciklama string
+    - KitapTurEnum
+        - Eğitim piskoloji....
+    - Kullanıcı
+        - Id Guid 
+        - Ad Soyad string
+        - KullaniciAdi strin
+        - AdSoyad String
+        - List < kitap > ödünç alınacak kitaplar
+    - KullanıcıYöneticisi
+      - Kullanıcı yöenticisi olmalı 
+      - KayıtOl methodu
+      - GirisYap methodu
+      - KullanıcıVarmi methodu
+    - KutuphaneYoneticisi
+      - kitaplistesli olmalı ve tüm işlemler bu listede
+      - KitapBagisYap methodu
+      - KitapImhaEt methodu 
+      - Kitap odunc al methodu parametre olarak 
+- [ ] Register ve Login Sayfalarının tasarımı 
+    - Aynı Kullanıcı adınsa hip iki ikişi varmı kontorolü
+    
