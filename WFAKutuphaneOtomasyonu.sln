@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFAKutuphaneOtomasyonu.UI", "WFAKutuphaneOtomasyonu.UI\WFAKutuphaneOtomasyonu.UI.csproj", "{374A4FBE-AC8B-499A-89F3-1A32ABFFB1BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFAKutuphaneotomasyonu.DATA", "WFAKutuphaneotomasyonu.DATA\WFAKutuphaneotomasyonu.DATA.csproj", "{658CE814-35D9-4D28-B18D-00CD7EDB1982}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{374A4FBE-AC8B-499A-89F3-1A32ABFFB1BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{374A4FBE-AC8B-499A-89F3-1A32ABFFB1BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{374A4FBE-AC8B-499A-89F3-1A32ABFFB1BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{374A4FBE-AC8B-499A-89F3-1A32ABFFB1BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{658CE814-35D9-4D28-B18D-00CD7EDB1982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{658CE814-35D9-4D28-B18D-00CD7EDB1982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{658CE814-35D9-4D28-B18D-00CD7EDB1982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{658CE814-35D9-4D28-B18D-00CD7EDB1982}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C22085D-9FE7-4839-A8FC-651C5A647492}
+	EndGlobalSection
+EndGlobal
