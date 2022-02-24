@@ -41,6 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Kitap.cs" />
+    <Compile Include="KitapTurEnum.cs" />
+    <Compile Include="Kullanici.cs" />
+    <Compile Include="KullaniciYöneticisi.cs" />
+    <Compile Include="KütüphaneYöneticisi.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
